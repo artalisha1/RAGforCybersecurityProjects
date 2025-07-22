@@ -1,0 +1,15 @@
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+⚠️ OpenAI LLM failed (RateLimitError): Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+→ Falling back to local HuggingFace LLM
+✅ Fallback HF response: Context information is below. 
+------------
+Sharing and Analysis Center (MS-ISAC), and the Israel National Cyber Directorate (INCD) released the Guide to Securing Remote Access Software. This new joint guide is the result of a collaborative effort to provide an overview of legitimate uses of remote access software, as well as common exploitations and associated tactics, techniques, and procedures (TTPs), and how to detect and defend against malicious actors abusing this software. Remote access software provides organizations with a broad
+------------
+Given the context information and not prior knowledge, answer the question: What is the MITRE ATT&CK technique for remote desktop attacks?
+This is a common question asked by attackers against multiple computer users; to date there have been several such attacks.
+In this report we will focus on the MITRE ATT&CK technique.
+When a user enters the home of a computer, the attacker begins to use a remote desktop (see below) to perform an attack on the computer. The attacker then uses this remote desktop to connect to a remote server to perform an attack on its network and to connect to a remote server to perform a remote command to obtain a remote token (a key or certificate).
+Using the MITRE ATT&CK technique, the attacker can gain access to the computer's network, and obtain a key or certificate by using a remote desktop (see below). The attacker then uses the remote desktop to obtain a remote token (a key or certificate) that is used to perform the attack.
+The attacker then uses this device to gain access to the computer's network and use the remote desktop to gain access to the network.
+The attacker can then obtain a token that is used to perform the attack. The attacker then uses the device to gain access to the network and to gain access to a remote server (see below).
+The attacker then uses the device to gain access to the network
