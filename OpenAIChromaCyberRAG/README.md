@@ -46,10 +46,12 @@ pip install langchain chromadb sentence-transformers pandas tqdm langchain_opena
 pip install --upgrade openai
 ```
 
-Set the environment variable for OpenAI:
+Retrieve API key from the environment variable for OpenAI:
 
 ```bash
-export OPENAI_API_KEY="sk-…" #SET YOUR OWN API KEY HERE
+openai_api_key = os.getenv("OPENAI_API_KEY")
+if openai_api_key is None:
+  openai_api_key = "sk-..." #SET YOUR OWN API KEY HERE
 ```
 
 ---
