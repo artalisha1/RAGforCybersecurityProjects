@@ -1,6 +1,8 @@
 # Integrating OpenAI LLM + ChromaDB for Retrieval‑Augmented Generation
 
-`openaillmwithchroma.py` is a self‑contained Python script that stands up an end‑to‑end **Retrieval‑Augmented Generation (RAG)** pipeline: it embeds cybersecurity data, stores vectors in **ChromaDB**, and answers questions with an OpenAI chat model—falling back to a local Hugging Face model when the API is unavailable or rate‑limited.
+This notebook (OpenAILLMwithChroma.ipynb) builds a complete **Retrieval‑Augmented Generation (RAG)** pipeline.  
+The notebook embeds cybersecurity data, stores vectors in **ChromaDB**, and answers questions with an OpenAI chat model—seamlessly falling back to a local Hugging Face model when the API is unavailable, rate‑limited, or too costly.
+
 
 ---
 
