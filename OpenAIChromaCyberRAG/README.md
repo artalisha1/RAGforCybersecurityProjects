@@ -42,13 +42,14 @@ Pipeline steps:
 ### Python packages
 
 ```bash
-pip install -U chromadb langchain langchain-openai                langchain-community sentence-transformers                transformers pandas tqdm
+pip install langchain chromadb sentence-transformers pandas tqdm langchain_openai langchain_community transformers
+pip install --upgrade openai
 ```
 
 Set the environment variable for OpenAI:
 
 ```bash
-export OPENAI_API_KEY="sk-…"
+export OPENAI_API_KEY="sk-…" #SET YOUR OWN API KEY HERE
 ```
 
 ---
